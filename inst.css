@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+/* FONTE GOOGLE*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family:"Funnel Display", serif;
+}
+
+.cabecalho {
+  background-color: #228b22;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: -50px;
+}
+
+.menu a {
+  position: relative;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+  background-color: #228b2260;
+}
+
+.menu a::before,
+.menu a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #333;
+  transition: all 0.3s;
+  background-color: #228b2260;
+}
+
+.menu a::before {
+  top: 0;
+  left: 50%;
+}
+
+.menu a::after {
+  bottom: 0;
+  right: 50%;
+}
+
+.menu a:hover {
+  color: white;
+  background-color: #228b2260;
+}
+
+.menu a:hover::before,
+.menu a:hover::after {
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.title,p {
+  text-align: center;
+  font-family: "Funnel Display", serif;
+
+  justify-content: center;
+ 
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 20px solid #5bbe42;
+}
+
+/*FOOOOOOOOOOOOOOOTTTTTTTTTTTTTEEEEEEEEEEERRRRRR*/
+
+.footer {
+  display: flex;
+  gap: 20px;
+  background-color: #228b22;
+  padding: 10px;
+  width: 100%;
+  justify-items: center;
+  align-items: start;
+  color: #333;
+}
+
+
+.inf {
+
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+
+}
+
+.imglogo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.fale{
+  width: 350px;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  padding-left: 500px;
+}
+.infprof {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: #333;
+  size: "-10";
+  padding-left: 30%;
+}
+
+.infprof a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+
+.infprof h2 {
+  font-size: 25px;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.contato {
+  font-size: 23px;
+  color: #333;
+  text-align: center;
+
+}
+
+.inf h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 10px;
+}
+
+.endereco a {
+  font-size: 16px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.contato {
+  color: #333;
+}
+
+.endereco a:hover {
+  text-decoration: underline;
+}
+
+.numero a {
+  font-size: 18px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.numero a:hover {
+  text-decoration: underline;
+}
